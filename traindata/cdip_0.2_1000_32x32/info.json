@@ -1,0 +1,1 @@
+{"time_minutes": 2.6190983414649964, "time_seconds": 157.14590048789978, "best_model": "traindata/cdip_0.2_1000_32x32/model/9.npy", "params": {"num_processors": 8, "learning_rate": 0.0001, "batch_size": 256, "num_epochs": 10, "step_size": 0.33, "samples_dir": "/mnt/data/samples/deeprec-pr20/cdip_0.2_1000_32x32", "arch": "sn", "model_id": "cdip_0.2_1000_32x32"}}
