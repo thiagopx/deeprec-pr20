@@ -1,0 +1,30 @@
+# import multiprocessing
+
+# # general
+# CONFIG_NUM_RUNS = 10
+# CONFIG_SEED = 1593803615
+# CONFIG_NUM_CLASSES = 2
+
+# # samples generation
+# # <=  adjust dir
+# # CONFIG_SAMPLES_BASE_DIR = '/mnt/data/samples/deeprec-icpr20'
+# CONFIG_SAMPLES_SIZE = 31
+# CONFIG_SAMPLES_RATIO_VAL = .1
+# CONFIG_SAMPLES_THRESH_BLACK = .2
+# CONFIG_SAMPLES_DISP_NOISE = 2
+# CONFIG_SAMPLES_MAX_POS = 1000
+# CONFIG_SAMPLES_RATIO_NEG = 1.0
+# CONFIG_SAMPLES_NUM_STRIPS = 30
+# CONFIG_SAMPLES_STRIDE = 2
+
+# # TRAIN
+# # CONFIG_TRAIN_NUM_PROC = 1 # for dataset processing
+# CONFIG_TRAIN_NUM_PROC = max(1, multiprocessing.cpu_count() - 1) # for dataset processing
+# CONFIG_TRAIN_INIT_LEARNING_RATE = .0001
+# CONFIG_TRAIN_BATCH_SIZE = 128
+# CONFIG_TRAIN_NUM_EPOCHS = 5
+# CONFIG_TRAIN_STEP_SIZE = .33
+
+# DIRS
+CONFIG_DOCREASSEMBLY_DIR = '~/docreassembly'
+CONFIG_SAMPLES_DIR = '/mnt/data/samples/deeprec-pr20'

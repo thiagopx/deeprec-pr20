@@ -1,0 +1,9 @@
+__pycache__/
+datasets/*
+*.pyc
+traindata/*
+!traindata/cdip_0.2_1000_32x32
+!traindata/isri-ocr_0.2_1000_32x32
+results/*
+
+

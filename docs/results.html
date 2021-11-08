@@ -1,0 +1,14 @@
+<head>
+    <meta charset="utf-8"/>
+</head>
+
+<div id="openseadragon1" style="width: 1200px; height: 600px;"></div>
+<script src="openseadragon/openseadragon.min.js"></script>
+<script type="text/javascript">
+    var viewer = OpenSeadragon({
+        id: "openseadragon1",
+        showNavigationControl: true,
+        prefixUrl: "openseadragon/images/",
+        tileSources: "reconstruction.dzi"
+    });
+</script>
