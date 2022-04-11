@@ -25,7 +25,7 @@ for dataset in datasets:
 df = pd.DataFrame.from_records(records, columns=('k', 'dataset', 'accuracy'))
 
 # new names for datasets
-datasets_map = {'D1': '\\textsc{S-Marques}', 'D2': '\\textsc{S-Isri-OCR}', 'cdip': '\\textsc{S-cdip}'}
+datasets_map = {'D1': '\\textsc{S-Marques}', 'D2': '\\textsc{S-Isri-OCR}', 'cdip': '\\textsc{S-Cdip}'}
 df['dataset'].replace(datasets_map, inplace=True)
 path = 'graphs'
 if len(sys.argv) > 1:

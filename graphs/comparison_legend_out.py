@@ -113,4 +113,3 @@ for text in leg.get_texts():
 # plt.setp(leg.get_title(), fontsize=110)  # legend title size
 
 plt.savefig("{}/comparison_legend_out.pdf".format(path), bbox_inches="tight")
-# plt.show()
