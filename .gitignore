@@ -1,4 +1,9 @@
+# Virtual environment
+.venv/
+
+# Python cache files
 __pycache__/
+*.pyc
 
 # Ignore image files from the analysis folder recursively
 analysis/**/*.tif
@@ -8,8 +13,8 @@ analysis/**/*.jpeg
 analysis/**/*.JPG
 analysis/**/*.JPEG
 
+# Ignore the datasets folder, but keep the specific subfolders for training data
 datasets/*
-*.pyc
 traindata/*
 !traindata/cdip_0.2_1000_32x32
 !traindata/isri-ocr_0.2_1000_32x32

@@ -10,3 +10,5 @@ pyenchant==3.1.1
 pytesseract==0.3.6
 texttable==1.6.3
 parse==1.18.0
+gdown==6.1.0
+
