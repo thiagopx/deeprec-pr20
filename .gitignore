@@ -1,4 +1,14 @@
 __pycache__/
+
+# Ignore pdf and image files
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.TIF
+
 datasets/*
 *.pyc
 traindata/*
