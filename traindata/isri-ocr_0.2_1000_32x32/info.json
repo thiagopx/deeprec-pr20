@@ -1,0 +1,1 @@
+{"time_minutes": 37.00560603141785, "time_seconds": 2220.336361885071, "best_model": "traindata/isri-ocr_0.2_1000_32x32/model/7.npy", "params": {"num_processors": 8, "learning_rate": 0.0001, "batch_size": 256, "num_epochs": 10, "step_size": 0.33, "samples_dir": "/mnt/data/samples/deeprec-pr20/isri-ocr_0.2_1000_32x32", "arch": "sn", "model_id": "isri-ocr_0.2_1000_32x32"}}
